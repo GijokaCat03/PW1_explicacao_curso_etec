@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+
+header{
+    background-color: darkblue;
+}
+
+body{
+    background-color: rgba(54, 54, 143, 0.61);
+}
+
+.Logo{
+    transform: translateY(-3px);
+}
+
+#logotipo{
+    margin-left: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#cor{
+    color: white;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+#but{
+    
+    color: white;
+    border-color: darkorchid;
+    padding: 0px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+p{
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+form {
+    margin-right: 30px;
+}
+
+.container-fluid{
+    margin-top: 0px;
+}
+
+.collapse{
+    background-color: rgba(54, 54, 143, 0.61);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#top3{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#purple{
+    background-color: rgba(54, 54, 143, 0.61);
+    color: white;
+}
+
+.a1, .a1:visited{
+    color: white !important;
+    text-decoration: none;
+}
+a, a:visited{
+    
+    text-decoration: none;
+}
+#pai{
+    display: flex;
+    height: 100vh;
+    overflow:hidden;
+    box-sizing: border-box;
+}
+#ava{
+    height: 100%;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+.meu-elemento:hover {
+    background-color: transparent;
+    transform: scale(1.25);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+.meu-elemento1:hover {
+    background-color: transparent;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-bd-primary {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+  --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+  --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+}
+
+ .botao {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(138, 31, 239, 0.952);
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-top: 60px;
+        margin-left: 85%;
+        justify-content: flex-end;
+        margin-bottom: 250px;
+}
+.botao:hover {
+             display: inline-flex;
+            justify-content: center;
+            align-items: center;
+              background-color: cornflowerblue;
+              color: white;
+              border: none;
+              cursor: pointer;
+              margin-top: 60px;
+             margin-left: 85%;
+             justify-content: flex-end;
+             margin-bottom: 250px;
+          }
+
